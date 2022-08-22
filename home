@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="optical, glasses, eye tests" />
+    <link rel="icon" href="/images/favicon.png" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>ABC Optical</title>
+  </head>
+  <body>
+    <!-- Main Navagation Section-->
+    <nav>
+      <ul>
+        <li><a href="#header_title">Home</a></li>
+        <li><a href="#about_section">About</a></li>
+        <li><a href="#services_section">Services</a></li>
+        <li><a href="#contact_section">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Header Section-->
+    <header id="header_title">
+      <article>
+        <h1>ABC Optical</h1>
+        <p>Specialising In Children's Optical Requirements</p>
+        <figure>
+          <img src="/images/ABC_logo_white_transparent.png" alt="" />
+        </figure>
+      </article>
+    </header>
+
+    <!-- About Section-->
+
+    <section id="about_section">
+      <figure>
+        <img
+          src="/images/Optometrists_500x500.webp"
+          alt="glasses sitting on eye chart"/>
+      </figure>
+
+      <article>
+        <h2>About Us</h2>
+        <p>
+          We are a Brisbane based company which is well regarded locally. We are
+          recognised as being able to manage children’s needs with a
+          professional caring approach. We employ two full-time, in-store
+          qualified optometrists able to diagnose and treat a number of eye
+          related problems. Our optometrists strive to make a positive
+          difference to the health and well-being of our customers, endeavoring
+          to obtain the best visual outcome so that customers realise their full
+          potential in work, study, sport and leisure.
+        </p>
+      </article>
+    </section>
+
+    <!-- Services Section-->
+    <main>
+      <section id="services_section">
+        <figure>
+          <img src="/images/girl_reading_eye_chart.webp" alt="girl" />
+        </figure>
+
+        <article>
+          <h2>Services</h2>
+          <ul>
+            <li>Eye Examinations (may be bulk-billed)</li>
+            <li>
+              Spectacles (may be bulk-billed to private Health Fund optical
+              cover)
+            </li>
+            <li>Diabetic eye examinations</li>
+            <li>Colour Vision assessments</li>
+            <li>Macular Degeneration tests</li>
+            <li>Glaucoma & eye pressure testing</li>
+            <li>Checks for Cataracts</li>
+            <li>Clearness of vision (myopia, hyperopia, astigmatism)</li>
+            <li>Focusing ability (Presbyopia)</li>
+            <li>Eye muscle movement and control</li>
+            <li>Amblyopia (lazy eye)</li>
+            <li>Contact lens fitting and management</li>
+            <li>Referrals for eye laser surgery</li>
+            <li>Mining & Industrial Safety Spectacles</li>
+            <li>
+              Advice on the correct fitting of good quality sunglasses (both
+              prescription and non-prescription, in both adults and children,
+              particularly in a sporting environment)
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <section id="contact_section">
+      <h2>Contact Us</h2>
+      <div>
+        <form action="#">
+          <h3>Message Us</h3>
+          <label for="name">Name</label>
+          <input id="name" type="text" required />
+          <label for="email">Email</label>
+          <input id="email" type="text" required />
+          <label for="phone">Phone</label>
+          <input id="phone" type="text" required />
+          <label for="message">Message</label>
+          <input id="message" type="text" required />
+          <input type="submit" value="Submit" />
+        </form>
+        <article>
+          <h3>Visit Us</h3>
+          <p>The Myer Centre</p>
+          <p>Queen St Mall</p>
+          <p>Level 1, Shop number 36</p>
+          <h3>Phone Us</h3>
+          <p>07 3256 7101</p>
+        </article>
+        <article>
+          <h3>Opening Hours</h3>
+          <p>Mon – Thurs: 9am - 5.30pm</p>
+          <p>Fri: 9am - 9pm</p>
+          <p>Sat: 9am - 5pm</p>
+          <p>Sun: 10am - 5pm</p>
+        </article>
+      </div>
+    </section>
+    <footer>
+      <p>&copy;Copyright Karyn King Designs 2022</p>
+    </footer>
+  </body>
+</html>
